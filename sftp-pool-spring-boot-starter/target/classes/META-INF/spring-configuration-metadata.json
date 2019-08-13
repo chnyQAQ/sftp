@@ -1,0 +1,181 @@
+{
+  "groups": [
+    {
+      "name": "sftp-pool",
+      "type": "com.xzixi.sftp.autoconfigure.SftpPoolProperties",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties"
+    },
+    {
+      "name": "sftp-pool.abandoned",
+      "type": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Abandoned",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties"
+    },
+    {
+      "name": "sftp-pool.pool",
+      "type": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "sftp-pool.abandoned.log-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Abandoned",
+      "defaultValue": false
+    },
+    {
+      "name": "sftp-pool.abandoned.remove-abandoned-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Abandoned",
+      "defaultValue": true
+    },
+    {
+      "name": "sftp-pool.abandoned.remove-abandoned-on-maintenance",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Abandoned",
+      "defaultValue": true
+    },
+    {
+      "name": "sftp-pool.abandoned.remove-abandoned-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Abandoned",
+      "defaultValue": 300
+    },
+    {
+      "name": "sftp-pool.abandoned.require-full-stack-trace",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Abandoned",
+      "defaultValue": false
+    },
+    {
+      "name": "sftp-pool.abandoned.use-usage-tracking",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Abandoned",
+      "defaultValue": false
+    },
+    {
+      "name": "sftp-pool.host",
+      "type": "java.lang.String",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties"
+    },
+    {
+      "name": "sftp-pool.password",
+      "type": "java.lang.String",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties"
+    },
+    {
+      "name": "sftp-pool.pool.block-when-exhausted",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool"
+    },
+    {
+      "name": "sftp-pool.pool.evictor-shutdown-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool"
+    },
+    {
+      "name": "sftp-pool.pool.fairness",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool"
+    },
+    {
+      "name": "sftp-pool.pool.jmx-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool"
+    },
+    {
+      "name": "sftp-pool.pool.jmx-name-base",
+      "type": "java.lang.String",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool",
+      "defaultValue": "sftp"
+    },
+    {
+      "name": "sftp-pool.pool.jmx-name-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool",
+      "defaultValue": "pool"
+    },
+    {
+      "name": "sftp-pool.pool.lifo",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool"
+    },
+    {
+      "name": "sftp-pool.pool.max-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool"
+    },
+    {
+      "name": "sftp-pool.pool.max-total",
+      "type": "java.lang.Integer",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool"
+    },
+    {
+      "name": "sftp-pool.pool.max-wait-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool",
+      "defaultValue": 5000
+    },
+    {
+      "name": "sftp-pool.pool.min-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool",
+      "defaultValue": -1
+    },
+    {
+      "name": "sftp-pool.pool.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool"
+    },
+    {
+      "name": "sftp-pool.pool.num-tests-per-eviction-run",
+      "type": "java.lang.Integer",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool"
+    },
+    {
+      "name": "sftp-pool.pool.soft-min-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool",
+      "defaultValue": 0
+    },
+    {
+      "name": "sftp-pool.pool.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool"
+    },
+    {
+      "name": "sftp-pool.pool.test-on-create",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool"
+    },
+    {
+      "name": "sftp-pool.pool.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool"
+    },
+    {
+      "name": "sftp-pool.pool.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool",
+      "defaultValue": true
+    },
+    {
+      "name": "sftp-pool.pool.time-between-eviction-runs-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties$Pool",
+      "defaultValue": 0
+    },
+    {
+      "name": "sftp-pool.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties",
+      "defaultValue": 22
+    },
+    {
+      "name": "sftp-pool.username",
+      "type": "java.lang.String",
+      "sourceType": "com.xzixi.sftp.autoconfigure.SftpPoolProperties"
+    }
+  ],
+  "hints": []
+}

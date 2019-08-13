@@ -1,0 +1,10 @@
+com\xzixi\sftp\pool\Sftp.class
+com\xzixi\sftp\pool\SftpFactory$Builder.class
+com\xzixi\sftp\pool\SftpPoolConfig$Builder.class
+com\xzixi\sftp\uitl\ByteUtil.class
+com\xzixi\sftp\pool\SftpAbandonedConfig$Builder.class
+com\xzixi\sftp\pool\SftpPool.class
+com\xzixi\sftp\pool\SftpPoolConfig.class
+com\xzixi\sftp\exception\SftpPoolException.class
+com\xzixi\sftp\pool\SftpFactory.class
+com\xzixi\sftp\pool\SftpAbandonedConfig.class

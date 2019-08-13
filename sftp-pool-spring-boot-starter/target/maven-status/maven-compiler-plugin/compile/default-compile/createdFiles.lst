@@ -1,0 +1,5 @@
+com\xzixi\sftp\autoconfigure\SftpPoolAutoConfiguration.class
+com\xzixi\sftp\autoconfigure\SftpPoolProperties.class
+com\xzixi\sftp\autoconfigure\SftpPoolProperties$Abandoned.class
+com\xzixi\sftp\autoconfigure\SftpPoolProperties$Pool.class
+META-INF\spring-configuration-metadata.json

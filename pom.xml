@@ -34,6 +34,11 @@
         <developerConnection>scm:git:git@gitee.com:xuelingkang/sftp.git</developerConnection>
         <url>https://gitee.com/xuelingkang/sftp</url>
     </scm>
+    <modules>
+        <module>sftp-pool</module>
+        <module>sftp-pool-spring-boot-starter</module>
+        <module>sftp-pool-demo</module>
+    </modules>
     <properties>
         <java.version>1.8</java.version>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -120,10 +125,10 @@
                         <checkModificationExclude>.idea/libraries/*</checkModificationExclude>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                         <checkModificationExclude>release-pom.xml</checkModificationExclude>
-                        <checkModificationExclude>zookeeper.iml</checkModificationExclude>
-                        <checkModificationExclude>curator-client/curator-client.iml</checkModificationExclude>
-                        <checkModificationExclude>curator-client-spring-boot-starter/curator-client-spring-boot-starter.iml</checkModificationExclude>
-                        <checkModificationExclude>curator-client-demo/curator-client-demo.iml</checkModificationExclude>
+                        <checkModificationExclude>sftp.iml</checkModificationExclude>
+                        <checkModificationExclude>sftp-pool/sftp-pool.iml</checkModificationExclude>
+                        <checkModificationExclude>sftp-pool-spring-boot-starter/sftp-pool-spring-boot-starter.iml</checkModificationExclude>
+                        <checkModificationExclude>sftp-pool-demo/sftp-pool-demo.iml</checkModificationExclude>
                     </checkModificationExcludes>
                 </configuration>
                 <dependencies>
