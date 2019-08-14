@@ -1,10 +1,11 @@
 HELP.md
-.mvn
-mvnw
-mvnw.cmd
-*.log
-/target/
+sftp-pool/target/
+sftp-pool-demo/target/
+sftp-pool-spring-boot-starter/target/
+target/
 !.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
 
 ### STS ###
 .apt_generated
@@ -27,7 +28,11 @@ mvnw.cmd
 /dist/
 /nbdist/
 /.nb-gradle/
-/build/
+build/
 
 ### VS Code ###
 .vscode/
+
+### logs ####
+/logs/
+*.log
