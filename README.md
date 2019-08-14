@@ -95,5 +95,6 @@ sftp-pool:
     # 如果池实现了org.apache.commons.pool2.UsageTracking接口，是否记录完整堆栈信息用来辅助调试废弃对象，当logAbandoned为true时有效
     use-usage-tracking: false
 ```
+详细用法请参考源码注释和案例工程`sfpt-pool-demo`
 ## 欢迎提出宝贵意见
 如果我的代码对您有帮助，希望给我个star，谢谢！
